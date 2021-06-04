@@ -629,7 +629,7 @@ class Assertion
      *
      * @return bool
      *
-     * @throws AssertionFailedException
+     * @throws \RS\Exception
      */
     public static function notEmpty($value, $message = null, string $propertyPath = null): bool
     {
